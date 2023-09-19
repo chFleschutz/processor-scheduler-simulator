@@ -14,10 +14,10 @@ int main()
 	{
 		//Prozesse mit Zeiten einlesen
 		Scheduler scheduler;
-		//scheduler.inputProcesses();
-		scheduler.loadProcesses();
+		scheduler.inputProcesses();
+		//scheduler.loadProcesses();
 
-		//Strategie ausw‰hlen
+		//Strategie ausw√§hlen
 		scheduler.selectSchedulingStrategy();
 
 		//Durschnittliche Wartezeit ausgeben
